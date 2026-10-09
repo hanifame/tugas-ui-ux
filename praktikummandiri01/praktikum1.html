@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum UI/UX</title>
+  </head>
+  <body>
+    <div id="id"></div>
+    <div class="container">
+      <h1>STT Terpadu Nurul Fikri</h1>
+      <p>kampus Technopreneur di Indinesia</p>
+    </div>
+    <div id="main" class="active">
+      <img
+        src="img/fotokecil.PNG"
+        alt="foto anak anak"
+        width="100px"
+        height="100px"
+      />
+    </div>
+    <ol>
+      <li>
+        Juice
+        <ul>
+          <li>Mangga : Rp. 5.000</li>
+          <li>Durian : Rp. 8.000</li>
+        </ul>
+      </li>
+      <li>
+        Nasi Goreng
+        <ul>
+          <li>Biasa : Rp. 10.000</li>
+          <li>Spesial : Rp. 12.000</li>
+        </ul>
+      </li>
+    </ol>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>NIM</th>
+          <th>Nama Lengkap</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>01101</td>
+          <td>Hanif Al Ghifari</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>02202</td>
+          <td>Ame Aja</td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <fieldset>
+        <legend>your information</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </p>
+        <p>
+          <label for="instruction">masukkan deskripsi diri:</label>
+          <textarea
+            id="instruction"
+            name="instruction"
+            rows="4"
+            cols="50"
+            maxlength="400"
+            placeholder="no more than 400 characters"
+          ></textarea>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>umur</legend>
+        <input type="radio" id="umur1" name="umur" value="Radio" />
+        <label for="umur1">18-25 tahun</label><br />
+        <input type="radio" id="umur2" name="umur" value="Radio" />
+        <label for="umur2">26-35 tahun</label>
+      </fieldset>
+      <fieldset>
+        <legend>hobi</legend>
+        <input type="checkbox" id="hobi1" name="hobi" value="Checkbox" />
+        <label for="hobi1">Membaca</label><br />
+        <input type="checkbox" id="hobi2" name="hobi" value="Checkbox" />
+        <label for="hobi2">Menulis</label><br />
+        <input type="checkbox" id="hobi3" name="hobi" value="Checkbox" />
+        <label for="hobi3">Olahraga</label>
+        <p>
+          <label for="quantity">Jumlah hobi yang dipilih:</label>
+          <input type="number" id="quantity" name="quantity" min="0" max="3" />
+        </p>
+      </fieldset>
+      <p>
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </p>
+    </form>
+  </body>
+</html>

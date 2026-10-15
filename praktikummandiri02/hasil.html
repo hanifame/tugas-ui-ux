@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prak2_kelompok_6_desainuiux_pemweb</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td valign="top" width="200">
+          <img
+            src="img/images.jpg"
+            alt="Gambar HP Samsung"
+            width="145"
+            height="145"
+          />
+
+          <p>
+            Year: 2029<br />
+            Model: Samsung<br />
+            Condition: Mint
+          </p>
+        </td>
+        <td valign="top">
+            <p>Account Number: 123-456-789-0</p><br>
+
+            <label for="payment">Payment Type:</label>
+            <select id="payment" name="payment">
+              <option value="visa" selected>Visa Debit</option>
+              <option value="BNA">BNA</option>
+              <option value="BRU">BRU</option>
+              <option value="Mandari">Mandari</option>
+            </select>
+
+            <br /><br />
+
+            <br /><br />
+            <label for="holder">Account Holder:</label>
+            <input
+              type="text"
+              id="holder"
+              name="holder"
+              value="Name here"
+              required
+            /><br /><br />
+            <label for="account-no">Account No:</label>
+            <input
+              type="text"
+              id="account-no"
+              name="account-no"
+              value="123-456-789-0"
+              required
+            /><br />
+            <br /><br />
+            <input type="checkbox" id="mobile" name="mobile" checked />
+            <label for="mobile">Send to Mobile Phone</label><br /><br />
+            <input type="checkbox" id="email" name="email" checked />
+            <label for="email">Email me copy of transaction</label><br /><br />
+            <label for="phone">Send to mobile phone</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              value="123-456-135-6"
+              required
+            /><br /><br />
+            <label for="surel">Send to Email</label>
+            <input
+              type="text"
+              id="surel"
+              name="surel"
+              value="abcabcd@gmail.com"
+              required
+            />
+
+            <input type="submit" value="Submit Order" />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

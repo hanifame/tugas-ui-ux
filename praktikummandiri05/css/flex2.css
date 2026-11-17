@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", serif;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(240, 240, 121);
+  margin: 0;
+  padding: 15px;
+  height: 10vh;
+}
+
+.tengah {
+  display: flex;
+  height: 80vh;
+}
+
+article {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 70%;
+}
+
+aside {
+  background-color: pink;
+  padding: 15px;
+  width: 15%;
+}
+
+nav {
+  background-color: rgb(80, 213, 147);
+  padding: 15px;
+  width: 15%;
+}
+
+footer {
+  background-color: rgb(240, 240, 121);
+  margin: 0;
+  padding: 15px;
+  height: 10vh;
+}

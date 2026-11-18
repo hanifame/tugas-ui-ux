@@ -1,3 +1,41 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gambar {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.gambar img {
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  background-color: #dcdcdc;
+  object-fit: cover;
+  min-width: 0;
+}
+
+.atas img {
+  flex: 1;
+}
+
+.bawah img {
+  flex: 1;
 }

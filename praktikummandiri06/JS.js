@@ -7,8 +7,8 @@ let kelulusan;
 if (akhir >= 60) {
   kelulusan = "LULUS";
 } else {
-  akhir = "TIDAK LULUS";
+  kelulusan = "TIDAK LULUS";
 }
 console.log("Nama Mahasiswa: ", Nama);
 console.log("Nilai Akhir:", akhir);
-console.log("Satus:", kelulusan);
+console.log("Status:", kelulusan);

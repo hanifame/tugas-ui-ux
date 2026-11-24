@@ -11,31 +11,42 @@
 
     <script>
       const nama = "Hanif";
-      let umur = 19;
+      let umur = 18;
       let nilai = 90;
       let aktif = true;
+      const prodi = "Teknik Informatika";
 
       console.log("Nama:", nama);
       console.log("Umur:", umur);
       console.log("Nilai:", nilai);
       console.log("Status Aktif:", aktif);
       console.log("Tipe Nilai:", typeof nilai);
+      console.log("Prodi saya adalah:", prodi);
 
       const tugas = 80;
       const uts = 90;
-      const uas = 90;
+      const uas = 50;
       const akhir = tugas * 0.3 + uts * 0.3 + uas * 0.4;
+      const penjumlahan = 50 + 50;
+      const pengurangan = 50 - 20;
+      const perkalian = 10 * 10;
+      const pembagian = 50 / 2;
+      const modulo = 10 % 3;
 
       console.log("Nilai akhir:", akhir);
       console.log("Lulus:", akhir >= 60);
+      console.log("Hasil dari 50 + 50 adalah ", penjumlahan);
+      console.log("Hasil dari 50 - 20 adalah ", pengurangan);
+      console.log("Hasil dari 10 * 10 adalah ", perkalian);
+      console.log("Hasil dari 10 % 3 adalah ", modulo);
 
-      // const nilai1 = 78;
+      const nilai1 = 78;
       let kategori;
-      if (nilai >= 85) {
+      if (nilai1 >= 85) {
         kategori = "A";
-      } else if (nilai >= 70) {
+      } else if (nilai1 >= 70) {
         kategori = "B";
-      } else if (nilai >= 60) {
+      } else if (nilai1 >= 60) {
         kategori = "C";
       } else {
         kategori = "D";
